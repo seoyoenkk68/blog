@@ -69,7 +69,16 @@ a {
     display: block;
 }
 
+.con {
+    margin-right: auto;
+    margin-left: auto;
+}
+
 /* 커스텀 시작 */
+.con {
+    width: 1200px;
+}
+
 
 /* 탑바 시작 */
 .top-bar {
@@ -77,16 +86,16 @@ a {
     color: #fff;
 }
 
-.top-bar>div:first-child {
+.top-bar>.con>div:first-child {
     width: 150px;
     /*   border: 1px solid red; */
 }
 
-.top-bar>div:nth-child(2) {
+.top-bar>.con>div:nth-child(2) {
     width: calc(100% - 150px - 400px);
 }
 
-.top-bar>div:last-child {
+.top-bar>.con>div:last-child {
     width: 400px;
     /*   border: 1px solid red; */
 }

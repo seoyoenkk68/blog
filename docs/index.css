@@ -175,11 +175,6 @@ a.top-bar__logo span i {
     left: auto;
 }
 
-/* 서브메뉴의 아이템에 호버 올렸을 때 텍스트 */
-.top-bar__menu-box-1 > ul ul li:hover > a {
-    font-size: 0.9rem;
-    /*   font-weight: bold; */
-}
 
 /* 1차 메뉴 아이템에 호버 올렸을 때 자식 메뉴 */
 .top-bar__menu-box-1 ul > li:hover > ul {
